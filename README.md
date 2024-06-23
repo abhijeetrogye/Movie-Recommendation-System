@@ -1,4 +1,4 @@
-# Movie Recommendation Engine
+# Movie Recommendation System
 
 This repository contains the code for building movie recommendation engine.
 
@@ -38,12 +38,6 @@ ratings_small.csv
 ```
  
 More details about the contents and use of all these files is given in README.txt
-
-### Download dataset 
-In-case, there is need to download dataset then use either of the given links.
-* If you wnat to download MovieLens dataset hosted on Kaggle then use [this link](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
-* If you want to download MovieLens dataset from its official website then use [this link](https://grouplens.org/datasets/movielens/latest/)
-
 
 ### List of other dataset
 
@@ -113,95 +107,8 @@ jupyter notebook: $ sudo apt-get -y install ipython ipython-notebook
                   $ sudo -H pip install jupyter
 jupyter lab       $ sudo pip install jupyterlab
 textblob          $ sudo pip install textblob
-```                  
-
-##### Commands for installing pycharm
-```
-Step 1: Downlaod pycharm IDE community edition form [this link]()
-
-Step 2: Untar the tar.gz file in /opt path
-        $ tar xvzf ~/Downloads/pycharm-community*.tar.gz -C /opt
-
-Step 3: Change ownership if only need
-        $ sudo chown -R Username:username  /opt/pycharm-community-*.*
-        For example : $ sudo chown -R jalaj:jalaj  /opt/pycharm-community-*.*
-
-Step 4: Jump to the following path
-        $ cd /opt/pycharm-community-2016.3.2/bin`
-
-Step 5: Now you can see the pycharm.sh
-        $ sh ./pycharm.sh or sudo sh ./pycharm.sh
-
-Step 6: If you want to make desktop entry for pycahrm so the pycharm can be lunched 
-        from luncher then follow the steps given below
-
-        Start PyCharm.
-        
-        From the Tools menu, select "Create Desktop Entry..."
-        
-        Tick the corresponding box if you want the launcher for all users.
-        
-        If you selected "Create entry for all users", you will be asked for your password.
-        
-        A green message bubble should appear informing you that it was successful.
-        
-        You should then be able to find PyCharm in the Unity Dash or pin it to the launcher.
-
 ```
 
-#### Windows OS
+## LinkedIn
 
-
-##### Install Python3 (install python 3.6.4)
-
-* Step 1: Download python form [this link](https://www.python.org/downloads/)
-
-* Step 2: Refer [this link](http://www.openbookproject.net/courses/webappdev/units/softwaredesign/resources/install_python_win7.html) or [this link](https://www.youtube.com/watch?v=V_ACbv4329E) in oreder to install python
-
-
-##### Install anaconda
-* Step 1: Download Anaconda 5.1 
-(python 3.6 version) using [this link](https://www.anaconda.com/download/#windows)
-
-* Step 2: See the installation instruction given on [this link](https://conda.io/docs/user-guide/install/windows.html#install-win-silent)
-
-Note: If you have any other version of python then install anaconda which supports that particular version of python 
-
-
-##### Install dependencies using conda
-
-```
-nltk:             In-built installed with anaconda
-numpy:            In-built installed with anaconda
-scipy:            In-built installed with anaconda
-scikit-learn:     In-built installed with anaconda
-scikit-surprise:  $ conda install -c conda-forge scikit-surprise
-Pandas:           In-built installed with anaconda
-matplotlib:       In-built installed with anaconda 
-seaborn:          In-built installed with anaconda
-jupyter notebook: In-built installed with anaconda
-                  In-built installed with anaconda
-jupyter lab:      In-built installed with anaconda
-textblob:         $ conda install -c conda-forge textblob 
-```       
-##### Issues with installing surprise package
-* If you are facing issue for installing surprise then try the following links which can help you.
-* If conda is not working then try to install surprise using pip
-* See this [installation instructions](https://github.com/NicolasHug/Surprise#installation--usage)
-* See these links if you have any issues.
-    * [link 1](https://github.com/NicolasHug/Surprise/issues/89)
-    * [link 2](https://github.com/NicolasHug/Surprise/issues/99)
-    * [link 3](https://github.com/NicolasHug/Surprise/issues/21)
-    * [link 4](https://groups.google.com/a/continuum.io/forum/#!topic/anaconda/yLH46ilPQeo)
-
-
-##### Install Pycharm IDE
-
-
-* Step 1: Download pycharm IDE community edition by using [this link](https://www.jetbrains.com/pycharm-edu/download/#section=windows)
-
-* Step 2: Install `.exe` file.
-
-## Code credit
-
-Code credits for this code go to [Rounak Banik](https://github.com/rounakbanik) I've merely created a wrapper and necessary changes to get people started.
+[Abhijeet Rogye](https://www.linkedin.com/in/abhijeetrogye/)  
